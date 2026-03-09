@@ -5,11 +5,7 @@ C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Pro
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\ProcesadorXmlPedidos.runtimeconfig.json
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\ProcesadorXmlPedidos.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\ProcesadorXmlPedidos.pdb
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
@@ -17,9 +13,6 @@ C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Mic
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
@@ -30,12 +23,8 @@ C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Mic
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ProcesadorXmlPedidos.csproj.AssemblyReference.cache
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ProcesadorXmlPedidos.GeneratedMSBuildEditorConfig.editorconfig
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ProcesadorXmlPedidos.AssemblyInfoInputs.cache
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ProcesadorXmlPedidos.AssemblyInfo.cs
@@ -46,3 +35,12 @@ C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ref
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ProcesadorXmlPedidos.pdb
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ProcesadorXmlPedidos.genruntimeconfig.cache
 C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ref\ProcesadorXmlPedidos.dll
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\ProcesadorXmlPedidos.MvcApplicationPartsAssemblyInfo.cache
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\staticwebassets.build.json
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\staticwebassets.development.json
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\staticwebassets\msbuild.ProcesadorXmlPedidos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\staticwebassets\msbuild.build.ProcesadorXmlPedidos.props
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProcesadorXmlPedidos.props
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProcesadorXmlPedidos.props
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Proyectos\ProcesadorXmlPedidosClean\ProcesadorXmlPedidos\obj\Debug\net8.0\scopedcss\bundle\ProcesadorXmlPedidos.styles.css
