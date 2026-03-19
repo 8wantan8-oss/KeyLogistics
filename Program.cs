@@ -18,6 +18,9 @@ builder.Services.AddSingleton<WorkerControlService>(sp =>
     return new WorkerControlService(config.Value.IntervalSeconds);
 });
 
+// Register KeyLogisticsApiClient with HttpClient
+builder.Services.AddHttpClient<KeyLogisticsApiClient>();
+
 // worker itself
 builder.Services.AddHostedService<Worker>();
 

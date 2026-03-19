@@ -11,24 +11,31 @@ public class Worker : BackgroundService
     private readonly OrderFileParser _parser;
     private readonly WorkerControlService _control;
 
+    // Se inyecta el cliente, pero NO se usa todavía
+    private readonly KeyLogisticsApiClient _keyLogisticsApiClient;
+
     public Worker(
         ILogger<Worker> logger,
         IOptions<WorkerConfig> options,
         FileProcessingService fileService,
         OrderFileParser parser,
-        WorkerControlService control)
+        WorkerControlService control,
+        KeyLogisticsApiClient keyLogisticsApiClient)
     {
         _logger = logger;
         _config = options.Value;
         _fileService = fileService;
         _parser = parser;
         _control = control;
+        _keyLogisticsApiClient = keyLogisticsApiClient;
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        _logger.LogInformation("Worker starting with interval {interval}s, input={input}",
-            _control.IntervalSeconds, _config.InputFolder);
+        _logger.LogInformation(
+            "Worker starting with interval {interval}s, input={input}",
+            _control.IntervalSeconds,
+            _config.InputFolder);
 
         // ensure directories exist at startup
         _fileService.EnsureDirectories();
@@ -54,7 +61,9 @@ public class Worker : BackgroundService
                 _logger.LogError(ex, "Unexpected error while scanning input folder");
             }
 
-            await Task.Delay(TimeSpan.FromSeconds(_control.IntervalSeconds), stoppingToken);
+            await Task.Delay(
+                TimeSpan.FromSeconds(_control.IntervalSeconds),
+                stoppingToken);
         }
     }
 
@@ -63,17 +72,25 @@ public class Worker : BackgroundService
         try
         {
             _logger.LogInformation("Parsing file {file}", path);
+
             var order = _parser.Parse(path);
+
             if (order != null)
             {
-                _logger.LogInformation("Order {orderNo} parsed successfully with {count} items",
-                    order.OrderNumber, order.Items.Count);
+                _logger.LogInformation(
+                    "Order {orderNo} parsed successfully with {count} items",
+                    order.OrderNumber,
+                    order.Items.Count);
+
                 _fileService.MoveToProcessed(path);
                 _control.ProcessedOk++;
             }
             else
             {
-                _logger.LogWarning("Parsing returned null for file {file}", path);
+                _logger.LogWarning(
+                    "Parsing returned null for file {file}",
+                    path);
+
                 _fileService.MoveToError(path);
                 _control.ProcessedError++;
             }
