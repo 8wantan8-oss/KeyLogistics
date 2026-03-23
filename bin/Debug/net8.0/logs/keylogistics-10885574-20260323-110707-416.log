@@ -1,0 +1,518 @@
+﻿TimestampChile: 2026-03-23T11:07:07.4165837
+TimestampUtc: 2026-03-23T14:07:07.4166943Z
+OrderNumber: 10885574
+CorrelationId: 99415ac2-1d40-4fa6-bd1b-699c9bc110c3
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 99415ac2-1d40-4fa6-bd1b-699c9bc110c3
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10885574",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-17",
+    "deliveryDate": "2026-03-20",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "30772//20-3-2026//BOD. RETAIL SALVADOR",
+    "items": [
+      {
+        "materialCode": "R046525",
+        "quantity": 1.0000,
+        "unitPrice": 21244.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA COSTA GRETTELL CHOCOLATE 85GR CAJA 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R046862",
+        "quantity": 1.0000,
+        "unitPrice": 6120.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA MINI MCKAY MOROCHA 50GR CAJA 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R046987",
+        "quantity": 1.0000,
+        "unitPrice": 14177.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA COSTA NIK BOCADO 71GR CAJA 36UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R047108",
+        "quantity": 1.0000,
+        "unitPrice": 20609.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA COSTA OBSESION 85GR CAJA 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R251259",
+        "quantity": 1.0000,
+        "unitPrice": 48686.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-M\u0026M PEANUT SINGLES 48GR DISPLAY 48UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R251334",
+        "quantity": 1.0000,
+        "unitPrice": 36515.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-TWIX SINGLE 57GR DISPLAY 36UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R251341",
+        "quantity": 2.0000,
+        "unitPrice": 48686.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE SNICKERS SINGLE 53GR DISPLAY 48UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R273442",
+        "quantity": 2.0000,
+        "unitPrice": 26540.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE COSTA ROLLS CROCANTE 150GR DISPLAY 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R281485",
+        "quantity": 1.0000,
+        "unitPrice": 12240.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA TRITON MCKAY VAINILLA 129GR CAJA 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R290067",
+        "quantity": 3.0000,
+        "unitPrice": 8449.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE COSTA NUSS COSTA 30 GR DIS 20 UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R290128",
+        "quantity": 1.0000,
+        "unitPrice": 71424.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE PRESTIGIO 35GR CAJA 192UN NESTLE (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R300650",
+        "quantity": 1.0000,
+        "unitPrice": 14177.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA COSTA NIK FRUTILLA 71GR CAJA 36UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R302791",
+        "quantity": 1.0000,
+        "unitPrice": 21244.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA COSTA GRETTEL YOGHURT FRUTILLA 85GR CAJA 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R303409",
+        "quantity": 1.0000,
+        "unitPrice": 21000.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA NESTLE CHOKITA 30GR CAJA 100UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R303410",
+        "quantity": 1.0000,
+        "unitPrice": 16320.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA MCKAY SUPER OCHO 29GR CAJA 96UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R303610",
+        "quantity": 1.0000,
+        "unitPrice": 39969.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETAS EMPAREDADOS DE HIGO S/AZUCAR ECOVIDA 150GR CAJA 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R303611",
+        "quantity": 1.0000,
+        "unitPrice": 39969.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETAS EMPAREDADOS DE MANI S/AZUCAR ECOVIDA 150GR CAJA 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R305104",
+        "quantity": 1.0000,
+        "unitPrice": 16492.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SUPLEMENTO PROTEIN SNACK TWENTYS LEMON CHEESECAKE 60GR DISPLAY 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R306998",
+        "quantity": 1.0000,
+        "unitPrice": 20000.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS KRYZPO QUESO 37GR CAJA 48UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R307011",
+        "quantity": 1.0000,
+        "unitPrice": 14697.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SUPLEMENTO PROTEIN BARRA CHOCOLATE 45GR DISPLAY 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R307012",
+        "quantity": 1.0000,
+        "unitPrice": 14697.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SUPLEMENTO PROTEIN BARRA CHOCOLATE MANI 45GR DISPLAY 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R307327",
+        "quantity": 1.0000,
+        "unitPrice": 16512.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA COSTA COCO TUAREG 120GR CAJA 35UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R308725",
+        "quantity": 1.0000,
+        "unitPrice": 34389.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE TOBLERONE LECHE 50GR DISPLAY 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R308736",
+        "quantity": 1.0000,
+        "unitPrice": 23429.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE MILKA LECHE 55GR DISPLAY 21UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309051",
+        "quantity": 1.0000,
+        "unitPrice": 16622.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHEETOS PALITOS 110GR CAJA 15UN EVERSCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309056",
+        "quantity": 1.0000,
+        "unitPrice": 32564.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS MARCO POLO RUSTICAS SAL DE MAR 38GR CAJA 66UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309065",
+        "quantity": 1.0000,
+        "unitPrice": 20808.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE COSTA ROLLS NUTS 170GR CAJA 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309066",
+        "quantity": 1.0000,
+        "unitPrice": 21533.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA COSTA DONUTS BLANCO 100GR CAJA 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309069",
+        "quantity": 1.0000,
+        "unitPrice": 11696.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS MARCO POLO CASERAS 110GR CAJA 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309093",
+        "quantity": 1.0000,
+        "unitPrice": 47070.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA ARCOR BON O BON 95GR CAJA 36UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309097",
+        "quantity": 1.0000,
+        "unitPrice": 16578.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHEEZELS EVERCRISP 100GR CAJA 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309098",
+        "quantity": 1.0000,
+        "unitPrice": 25451.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE FERRERO ROCHER 37,5GR DISPLAY 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309099",
+        "quantity": 1.0000,
+        "unitPrice": 6155.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CARAMELO TIC TAC NARANJA 16GR DISPLAY 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309147",
+        "quantity": 1.0000,
+        "unitPrice": 49939.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE NESTLE KIT KAT 41,5GR CAJA 96UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309175",
+        "quantity": 1.0000,
+        "unitPrice": 5932.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE ARCOR HOBBY 35GR DISPLAY 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309432",
+        "quantity": 1.0000,
+        "unitPrice": 9093.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHIPS DE VEGETALES TIKA FURIOSAS 35GR CAJA 15UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309458",
+        "quantity": 5.0000,
+        "unitPrice": 18911.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE ORBIT HIERBABUENA DISPLAY 30UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309460",
+        "quantity": 1.0000,
+        "unitPrice": 21633.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA OREO ROLLO REGULAR 108GR CAJA 30UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309619",
+        "quantity": 3.0000,
+        "unitPrice": 3222.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-HALLS MENTA-LYPTUS 25,2 GR DISPLAY 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309762",
+        "quantity": 5.0000,
+        "unitPrice": 5794.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE BIGTIME MENTA 11GR DISPLAY 20UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309764",
+        "quantity": 5.0000,
+        "unitPrice": 6084.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE BIGTIME SANDIA 11GR DISPLAY 20UN (SS) (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310214",
+        "quantity": 1.0000,
+        "unitPrice": 18838.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPA FRITA LAYS T/AMERICANO 100GR CAJA 17UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310393",
+        "quantity": 1.0000,
+        "unitPrice": 10756.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK MANI JAPONES 100G CAJA 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310394",
+        "quantity": 1.0000,
+        "unitPrice": 14928.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS CASERAS IND 42GR CAJA 54UN MARCO POLO (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310430",
+        "quantity": 1.0000,
+        "unitPrice": 17584.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA CRIOLLITA 80GR CAJA 28UN MCKAY (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310450",
+        "quantity": 5.0000,
+        "unitPrice": 9270.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE TRIDENT INFINITI SPEARMINT S/AZUCAR 26,6GR DISPLAY 12UN (SS) (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310455",
+        "quantity": 1.0000,
+        "unitPrice": 48411.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE MILKA OREO 100GR CAJA 22UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310457",
+        "quantity": 1.0000,
+        "unitPrice": 21633.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA OREO VAINILLA 108GR CAJA 30UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310458",
+        "quantity": 1.0000,
+        "unitPrice": 21633.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA OREO CHOCOLATE 108GR CAJA 30UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310551",
+        "quantity": 2.0000,
+        "unitPrice": 20004.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CARAMELO FLOPI CEREZA S/AZUCAR 40GR DISPLAY 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310552",
+        "quantity": 2.0000,
+        "unitPrice": 20004.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CARAMELO FLOPI MULTIFRUTA S/AZUCAR 40GR DISPLAY 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310644",
+        "quantity": 1.0000,
+        "unitPrice": 24342.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE MILKY WAY SINGLE 48GR DISPLAY 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311171",
+        "quantity": 2.0000,
+        "unitPrice": 5751.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE ARCOR ROCKLETS MANI 30GR DISPLAY 18UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311172",
+        "quantity": 2.0000,
+        "unitPrice": 5751.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE ARCOR ROCKLETS 30GR DISPLAY 18UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312295",
+        "quantity": 1.0000,
+        "unitPrice": 48040.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHEETOS PALITO EVERCRISP 64GR CAJA 66UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312296",
+        "quantity": 1.0000,
+        "unitPrice": 42217.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPA FRITA LAYS T/AMERICANO 50GR CAJA 58UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312297",
+        "quantity": 1.0000,
+        "unitPrice": 15285.3800,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK DETODITO QUESO 64GR CAJA 21UN EVERSCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312298",
+        "quantity": 1.0000,
+        "unitPrice": 15285.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK DETODITO ORIGINAL 64GR CAJA 21UN EVERSCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312299",
+        "quantity": 1.0000,
+        "unitPrice": 32906.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-RAMITAS QUESO EVERCRISP 40GR CAJA 90UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312300",
+        "quantity": 1.0000,
+        "unitPrice": 32906.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-RAMITAS SALADAS EVERCRISP 40GR CAJA 90UN (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:09:13 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-0881bd5653d83f8db5a75824b98c038d-aff9bf2dd2cba72d-00"}
+
+Result: ERROR

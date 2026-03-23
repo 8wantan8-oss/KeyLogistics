@@ -1,0 +1,46 @@
+﻿TimestampChile: 2026-03-23T11:07:06.7543410
+TimestampUtc: 2026-03-23T14:07:06.7622063Z
+OrderNumber: 10883138
+CorrelationId: 64e935dc-33ab-48a8-a840-e1a19b93c6d3
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 64e935dc-33ab-48a8-a840-e1a19b93c6d3
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10883138",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-16",
+    "deliveryDate": "2026-03-25",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "31755//26-3-2026//BOD.CAMPAMENTO VCA-ESC",
+    "items": [
+      {
+        "materialCode": "R311443",
+        "quantity": 1.0000,
+        "unitPrice": 83299.0000,
+        "requestedDate": "2026-03-25",
+        "description": "SKU-CERDO BABY BACK RIBS AHUMADA (COCIDA) CAJA 5UN CURACARIBS CONG KG (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:09:13 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-1040cf03215f925b46967f83cff21500-1dfbb5f7b50a734a-00"}
+
+Result: ERROR

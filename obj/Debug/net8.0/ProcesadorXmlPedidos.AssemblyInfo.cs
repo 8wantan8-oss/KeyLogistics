@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcesadorXmlPedidos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cbed97375eb062015d851b344ad550af4de8ffc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbb5ec23ff0558033a5000746a06626e4a01b9d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcesadorXmlPedidos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcesadorXmlPedidos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

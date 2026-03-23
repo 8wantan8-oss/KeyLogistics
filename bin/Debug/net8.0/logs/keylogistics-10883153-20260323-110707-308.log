@@ -1,0 +1,70 @@
+﻿TimestampChile: 2026-03-23T11:07:07.3089535
+TimestampUtc: 2026-03-23T14:07:07.3090500Z
+OrderNumber: 10883153
+CorrelationId: 2ef9e88e-b62a-4360-a070-36fe9fce97cc
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 2ef9e88e-b62a-4360-a070-36fe9fce97cc
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10883153",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-16",
+    "deliveryDate": "2026-03-24",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "32426//25-3-2026//BOD.BARO PUB CART. PRO",
+    "items": [
+      {
+        "materialCode": "R310641",
+        "quantity": 1.0000,
+        "unitPrice": 30021.0000,
+        "requestedDate": "2026-03-24",
+        "description": "SKU-VACUNO CHURRASCO 120GR CAJA 36UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311443",
+        "quantity": 1.0000,
+        "unitPrice": 83299.0000,
+        "requestedDate": "2026-03-24",
+        "description": "SKU-CERDO BABY BACK RIBS AHUMADA (COCIDA) CAJA 5UN CURACARIBS CONG KG (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311677",
+        "quantity": 1.0000,
+        "unitPrice": 151950.0000,
+        "requestedDate": "2026-03-24",
+        "description": "SKU-POLLO HAMBURGUESA CONG 110GR CAJA 150UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311683",
+        "quantity": 5.0000,
+        "unitPrice": 22400.0000,
+        "requestedDate": "2026-03-24",
+        "description": "SKU-VERDURA CONG PAPA PRE FRITA EXTRA CROCANTE 7X7 BOLSA 2,5KG CAJA 4UN (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:09:13 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-8a4487fbd4d694bd98fcf0bdb468578c-79d2656bca0cefae-00"}
+
+Result: ERROR

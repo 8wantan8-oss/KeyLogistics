@@ -1,0 +1,134 @@
+﻿TimestampChile: 2026-03-23T11:10:37.8795256
+TimestampUtc: 2026-03-23T14:10:37.8796132Z
+OrderNumber: 10883147
+CorrelationId: 2fbfe914-5ef6-40a2-a9f4-b66994fe135b
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 2fbfe914-5ef6-40a2-a9f4-b66994fe135b
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10883147",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-16",
+    "deliveryDate": "2026-03-20",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "32063//21-3-2026//BOD.ANTOFAGASTA RETAIL",
+    "items": [
+      {
+        "materialCode": "R280365",
+        "quantity": 1.0000,
+        "unitPrice": 5133.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-QUEQUES COSTA CHOCMAN 33GR CAJA 32UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R290067",
+        "quantity": 1.0000,
+        "unitPrice": 8449.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE COSTA NUSS COSTA 30 GR DIS 20 UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R290128",
+        "quantity": 2.0000,
+        "unitPrice": 71424.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE PRESTIGIO 35GR CAJA 192UN NESTLE (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R303610",
+        "quantity": 1.0000,
+        "unitPrice": 39969.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETAS EMPAREDADOS DE HIGO S/AZUCAR ECOVIDA 150GR CAJA 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R306409",
+        "quantity": 1.0000,
+        "unitPrice": 15000.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA MIX ZANAHORIA Y CHIPS S/AZUCAR 30GR CAJA 50UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309175",
+        "quantity": 1.0000,
+        "unitPrice": 5932.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE ARCOR HOBBY 35GR DISPLAY 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309619",
+        "quantity": 1.0000,
+        "unitPrice": 3222.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-HALLS MENTA-LYPTUS 25,2 GR DISPLAY 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309662",
+        "quantity": 1.0000,
+        "unitPrice": 24387.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-RAMITAS QUESO EVERCRISP 230GR CAJA 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309876",
+        "quantity": 1.0000,
+        "unitPrice": 23730.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-ALFAJOR ARTESANAL CACAO NEGRO 55GR CAJA 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310450",
+        "quantity": 1.0000,
+        "unitPrice": 9270.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE TRIDENT INFINITI SPEARMINT S/AZUCAR 26,6GR DISPLAY 12UN (SS) (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310455",
+        "quantity": 1.0000,
+        "unitPrice": 48411.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE MILKA OREO 100GR CAJA 22UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311709",
+        "quantity": 1.0000,
+        "unitPrice": 25971.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPA FRITA LAYS T/AMERICANO 330GR CAJA 9UN (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:12:44 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-58d5021326eb4fbb7150ed552207a5c9-a6ef384221e14392-00"}
+
+Result: ERROR

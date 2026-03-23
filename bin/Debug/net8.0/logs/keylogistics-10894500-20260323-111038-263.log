@@ -1,0 +1,54 @@
+﻿TimestampChile: 2026-03-23T11:10:38.2639068
+TimestampUtc: 2026-03-23T14:10:38.2639825Z
+OrderNumber: 10894500
+CorrelationId: 3e3d246f-60c8-4529-ab91-40c0482df630
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 3e3d246f-60c8-4529-ab91-40c0482df630
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10894500",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-20",
+    "deliveryDate": "2026-03-26",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "32426//01-4-2026//BOD.BARO PUB CART. PRO",
+    "items": [
+      {
+        "materialCode": "R311684",
+        "quantity": 5.0000,
+        "unitPrice": 52752.0000,
+        "requestedDate": "2026-03-26",
+        "description": "SKU-VACUNO HAMBURGUESA BURGER ANGUS 115GR CAJA 56UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312294",
+        "quantity": 10.0000,
+        "unitPrice": 48039.7500,
+        "requestedDate": "2026-03-26",
+        "description": "SKU-PAN DE PAPA CONG ARTESANAL 10CM CAJA 48UN (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:12:44 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-e732831942f4c1d917df2160daf0d0e4-8a451d23b754a1ba-00"}
+
+Result: ERROR

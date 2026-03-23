@@ -1,0 +1,54 @@
+﻿TimestampChile: 2026-03-23T11:10:38.0204957
+TimestampUtc: 2026-03-23T14:10:38.0207152Z
+OrderNumber: 10883151
+CorrelationId: 9b8f84a7-3b03-4941-a07f-3179fe94f9c9
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 9b8f84a7-3b03-4941-a07f-3179fe94f9c9
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10883151",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-16",
+    "deliveryDate": "2026-03-24",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "32159//25-3-2026//BOD.PUB SPENCE",
+    "items": [
+      {
+        "materialCode": "R310640",
+        "quantity": 1.0000,
+        "unitPrice": 21131.0000,
+        "requestedDate": "2026-03-24",
+        "description": "SKU-CERDO CHURRASCO LOMITO 120GR CAJA 36UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310641",
+        "quantity": 2.0000,
+        "unitPrice": 30021.0000,
+        "requestedDate": "2026-03-24",
+        "description": "SKU-VACUNO CHURRASCO 120GR CAJA 36UN (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:12:44 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-c5c1f9b5f44f2825145024792bddc4d1-0c4257c6acb66440-00"}
+
+Result: ERROR

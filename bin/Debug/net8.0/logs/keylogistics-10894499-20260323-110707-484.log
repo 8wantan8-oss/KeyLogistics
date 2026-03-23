@@ -1,0 +1,78 @@
+﻿TimestampChile: 2026-03-23T11:07:07.4842887
+TimestampUtc: 2026-03-23T14:07:07.4844302Z
+OrderNumber: 10894499
+CorrelationId: 638885ee-76fc-48ed-b6bb-9b5dee5c7fd9
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 638885ee-76fc-48ed-b6bb-9b5dee5c7fd9
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10894499",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-20",
+    "deliveryDate": "2026-03-26",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "32030//28-3-2026//BOD.RETAIL QB2.",
+    "items": [
+      {
+        "materialCode": "R311677",
+        "quantity": 3.0000,
+        "unitPrice": 151950.0000,
+        "requestedDate": "2026-03-26",
+        "description": "SKU-POLLO HAMBURGUESA CONG 110GR CAJA 150UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311683",
+        "quantity": 10.0000,
+        "unitPrice": 22400.0000,
+        "requestedDate": "2026-03-26",
+        "description": "SKU-VERDURA CONG PAPA PRE FRITA EXTRA CROCANTE 7X7 BOLSA 2,5KG CAJA 4UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311684",
+        "quantity": 60.0000,
+        "unitPrice": 52752.0000,
+        "requestedDate": "2026-03-26",
+        "description": "SKU-VACUNO HAMBURGUESA BURGER ANGUS 115GR CAJA 56UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312294",
+        "quantity": 65.0000,
+        "unitPrice": 48039.7500,
+        "requestedDate": "2026-03-26",
+        "description": "SKU-PAN DE PAPA CONG ARTESANAL 10CM CAJA 48UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312391",
+        "quantity": 8.0000,
+        "unitPrice": 46490.0000,
+        "requestedDate": "2026-03-26",
+        "description": "SKU-MIX DE SALSAS 12X500G CAJA 6KG (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:09:13 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-0a17b6e634a288ce3452e163f8cd7a21-2b48b42f8f565a89-00"}
+
+Result: ERROR

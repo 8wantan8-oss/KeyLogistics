@@ -1,0 +1,46 @@
+﻿TimestampChile: 2026-03-23T11:07:07.0220632
+TimestampUtc: 2026-03-23T14:07:07.0221526Z
+OrderNumber: 10883145
+CorrelationId: 6f39ba07-47d5-42f0-886d-4b06b17a5627
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: 6f39ba07-47d5-42f0-886d-4b06b17a5627
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10883145",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-16",
+    "deliveryDate": "2026-03-20",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "32030//21-3-2026//BOD.RETAIL QB2.",
+    "items": [
+      {
+        "materialCode": "R311683",
+        "quantity": 5.0000,
+        "unitPrice": 22400.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-VERDURA CONG PAPA PRE FRITA EXTRA CROCANTE 7X7 BOLSA 2,5KG CAJA 4UN (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:09:13 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-7f82c0c4c9558baa9ba20396624904f6-7fcf26d90e2e9e48-00"}
+
+Result: ERROR

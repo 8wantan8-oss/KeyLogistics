@@ -1,0 +1,510 @@
+﻿TimestampChile: 2026-03-23T11:10:37.7196883
+TimestampUtc: 2026-03-23T14:10:37.7198157Z
+OrderNumber: 10883139
+CorrelationId: f024133e-053a-42e5-8fa1-f71b6aeb50fd
+Request URL: https://qa.keylogistics.cl/CRMAPI-QA/api/Integracion
+Request Headers:
+  keyApiVal: [REDACTED]
+  X-Correlation-ID: f024133e-053a-42e5-8fa1-f71b6aeb50fd
+Payload:
+{
+  "Modulo": "68073e0e748c6a204f601daa70f63f7c",
+  "parametros": {
+    "orderNumber": "10883139",
+    "supplierCode": "76024",
+    "orderDate": "2026-03-16",
+    "deliveryDate": "2026-03-20",
+    "paymentCondition": "D",
+    "deliveryLocationCode": "30004",
+    "invoiceLocationCode": "30004",
+    "billingLocationCode": "30004",
+    "notes": "31760//23-3-2026//BOD.KIOSKO LOS BRONCES",
+    "items": [
+      {
+        "materialCode": "R270151",
+        "quantity": 1.0000,
+        "unitPrice": 30341.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-MIX MANI PASAS ALMENDRAS EVERCRISP 150GR CAJA 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R273435",
+        "quantity": 1.0000,
+        "unitPrice": 22041.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE COSTA ROLLS CRISPY 130GR CAJA 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R287036",
+        "quantity": 1.0000,
+        "unitPrice": 25256.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS LAYS STAX CHEDDAR 172GR CAJA 14UN EVERCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R287043",
+        "quantity": 3.0000,
+        "unitPrice": 25256.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS LAYS STAX ORIGINAL 172GR CAJA 14UN EVERCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R287050",
+        "quantity": 2.0000,
+        "unitPrice": 25256.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS LAYS STAX CREMA CEBOLLA 172GR CAJA 14UN EVERCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R290067",
+        "quantity": 1.0000,
+        "unitPrice": 8449.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE COSTA NUSS COSTA 30 GR DIS 20 UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R304879",
+        "quantity": 2.0000,
+        "unitPrice": 12542.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CARAMELOS AMBROSOLI FULL LIMON 27GR CAJA 60UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R304886",
+        "quantity": 2.0000,
+        "unitPrice": 12192.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CARAMELO AMBROSOLI MENTITAS FLORETE 25GR CAJA 60UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R305104",
+        "quantity": 2.0000,
+        "unitPrice": 16492.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SUPLEMENTO PROTEIN SNACK TWENTYS LEMON CHEESECAKE 60GR DISPLAY 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R306409",
+        "quantity": 1.0000,
+        "unitPrice": 15000.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA MIX ZANAHORIA Y CHIPS S/AZUCAR 30GR CAJA 50UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R306999",
+        "quantity": 1.0000,
+        "unitPrice": 20000.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS KRYZPO CREMA CEBOLLA 37GR CAJA 48UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R307011",
+        "quantity": 2.0000,
+        "unitPrice": 14697.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SUPLEMENTO PROTEIN BARRA CHOCOLATE 45GR DISPLAY 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R307012",
+        "quantity": 2.0000,
+        "unitPrice": 14697.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SUPLEMENTO PROTEIN BARRA CHOCOLATE MANI 45GR DISPLAY 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R308725",
+        "quantity": 1.0000,
+        "unitPrice": 34389.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE TOBLERONE LECHE 50GR DISPLAY 24UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R308739",
+        "quantity": 1.0000,
+        "unitPrice": 18378.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-JUGO NATURAL IND CITRIC NARANJA 500ML CAJA 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309051",
+        "quantity": 3.0000,
+        "unitPrice": 16622.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHEETOS PALITOS 110GR CAJA 15UN EVERSCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309055",
+        "quantity": 1.0000,
+        "unitPrice": 22002.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK MANI CON MIEL MARCO POLO 350GR CAJA 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309056",
+        "quantity": 1.0000,
+        "unitPrice": 32564.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS MARCO POLO RUSTICAS SAL DE MAR 38GR CAJA 66UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309065",
+        "quantity": 1.0000,
+        "unitPrice": 20808.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE COSTA ROLLS NUTS 170GR CAJA 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309069",
+        "quantity": 3.0000,
+        "unitPrice": 11696.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPAS FRITAS MARCO POLO CASERAS 110GR CAJA 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309093",
+        "quantity": 1.0000,
+        "unitPrice": 47070.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GALLETA ARCOR BON O BON 95GR CAJA 36UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309097",
+        "quantity": 1.0000,
+        "unitPrice": 16578.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHEEZELS EVERCRISP 100GR CAJA 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309098",
+        "quantity": 1.0000,
+        "unitPrice": 25451.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE FERRERO ROCHER 37,5GR DISPLAY 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309146",
+        "quantity": 1.0000,
+        "unitPrice": 31430.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE NESTLE TRENCITO 150GR CAJA 14UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309175",
+        "quantity": 3.0000,
+        "unitPrice": 5932.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE ARCOR HOBBY 35GR DISPLAY 15UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309262",
+        "quantity": 1.0000,
+        "unitPrice": 12852.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK MIX KETO 60GR CAJA 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309264",
+        "quantity": 1.0000,
+        "unitPrice": 13566.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK MIX PROTEICO 60GR CAJA 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309432",
+        "quantity": 2.0000,
+        "unitPrice": 9093.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHIPS DE VEGETALES TIKA FURIOSAS 35GR CAJA 15UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309434",
+        "quantity": 1.0000,
+        "unitPrice": 29095.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHIPS DE VEGETALES TIKA PATAGONIA 35GR CAJA 48UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309456",
+        "quantity": 1.0000,
+        "unitPrice": 18911.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE ORBIT MENTA DISPLAY 30UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309458",
+        "quantity": 2.0000,
+        "unitPrice": 18911.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE ORBIT HIERBABUENA DISPLAY 30UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309661",
+        "quantity": 3.0000,
+        "unitPrice": 24387.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-RAMITAS SALADAS EVERCRISP 230GR CAJA 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309662",
+        "quantity": 3.0000,
+        "unitPrice": 24387.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-RAMITAS QUESO EVERCRISP 230GR CAJA 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309760",
+        "quantity": 1.0000,
+        "unitPrice": 33780.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE M\u0026M MILK 141,8GR CAJA 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309762",
+        "quantity": 1.0000,
+        "unitPrice": 5794.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE BIGTIME MENTA 11GR DISPLAY 20UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309763",
+        "quantity": 1.0000,
+        "unitPrice": 6084.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE BIGTIME STRONG 11GR DISPLAY 20UN (SS) (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309764",
+        "quantity": 1.0000,
+        "unitPrice": 6084.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE BIGTIME SANDIA 11GR DISPLAY 20UN (SS) (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309765",
+        "quantity": 1.0000,
+        "unitPrice": 6084.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE BIGTIME REFRESCANTE 11GR DISPLAY 20UN (SS) (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R309920",
+        "quantity": 1.0000,
+        "unitPrice": 9270.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE TRIDENT INFINITI PEPPERMINT S/AZUCAR 26,6GR DISPLAY 12UN (SS) (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310214",
+        "quantity": 3.0000,
+        "unitPrice": 18838.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPA FRITA LAYS T/AMERICANO 100GR CAJA 17UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310215",
+        "quantity": 6.0000,
+        "unitPrice": 17753.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPA FRITA LAYS T/AMERICANO 200GR CAJA 12UN",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310393",
+        "quantity": 3.0000,
+        "unitPrice": 10756.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK MANI JAPONES 100G CAJA 16UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310437",
+        "quantity": 2.0000,
+        "unitPrice": 35948.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK TIKA NATURAL CHIPS-PATAGONIA ESTANDAR 100GR CAJA 22UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310450",
+        "quantity": 1.0000,
+        "unitPrice": 9270.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHICLE TRIDENT INFINITI SPEARMINT S/AZUCAR 26,6GR DISPLAY 12UN (SS) (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310454",
+        "quantity": 1.0000,
+        "unitPrice": 24251.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-JUGO IND AFE MANZANA ORGANICA 300CC DISPLAY 24UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310456",
+        "quantity": 1.0000,
+        "unitPrice": 21888.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE M\u0026M MANTEQUILLA MANI 127GR CAJA 8UN (XD).",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310568",
+        "quantity": 1.0000,
+        "unitPrice": 25800.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK MIX CON ALMENDRA DULCE 40GR DISPLAY 20UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310655",
+        "quantity": 1.0000,
+        "unitPrice": 40350.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CUCHUFLI CON CHOCOLATE 60% CACAO 3UN CAJA 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310843",
+        "quantity": 1.0000,
+        "unitPrice": 24083.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GOMITAS AMBROSOLI LOOP 90G DISPLAY 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310844",
+        "quantity": 1.0000,
+        "unitPrice": 24083.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GOMITAS AMBROSOLI FLIPY 90G DISPLAY 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310846",
+        "quantity": 1.0000,
+        "unitPrice": 24083.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GOMITAS AMBROSOLI AMBERRIES 90GR DISPLAY 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R310847",
+        "quantity": 1.0000,
+        "unitPrice": 24083.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-GOMITAS SABOR SANDIA 90GR DISPLAY 30UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311171",
+        "quantity": 1.0000,
+        "unitPrice": 5751.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE ARCOR ROCKLETS MANI 30GR DISPLAY 18UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311172",
+        "quantity": 1.0000,
+        "unitPrice": 5751.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHOCOLATE ARCOR ROCKLETS 30GR DISPLAY 18UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311417",
+        "quantity": 1.0000,
+        "unitPrice": 18378.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-JUGO IND CITRIC NARANJA MANGO 500ML CAJA 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311418",
+        "quantity": 1.0000,
+        "unitPrice": 14100.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-JUGO IND CITRIC LIMONADA MENTA 500ML CAJA 12UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311708",
+        "quantity": 4.0000,
+        "unitPrice": 22894.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-SNACK DETODITO 275GR CAJA 11UN EVERSCRISP (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R311709",
+        "quantity": 2.0000,
+        "unitPrice": 25971.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-PAPA FRITA LAYS T/AMERICANO 330GR CAJA 9UN (XD)",
+        "uom": "UN"
+      },
+      {
+        "materialCode": "R312295",
+        "quantity": 1.0000,
+        "unitPrice": 48040.0000,
+        "requestedDate": "2026-03-20",
+        "description": "SKU-CHEETOS PALITO EVERCRISP 64GR CAJA 66UN (XD)",
+        "uom": "UN"
+      }
+    ]
+  }
+}
+
+Response Status: 400 Bad Request
+Response Headers:
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Mar 2026 14:12:44 GMT
+Response Content Headers:
+  Content-Type: application/problem+json; charset=utf-8
+Response Body:
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"Bad Request","status":400,"traceId":"00-e99c47a4af691c940260f878229a67f1-ac8e2ae4c13f761e-00"}
+
+Result: ERROR
